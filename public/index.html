@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>照片上傳</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <h1>📷 照片上傳</h1>
+    <form id="upload-form">
+      <input type="file" id="photo" name="photo" accept="image/*" required>
+      <img id="preview" alt="預覽" hidden>
+      <button type="submit">上傳</button>
+    </form>
+    <p id="message" role="status"></p>
+    <h2>已上傳的照片</h2>
+    <div id="gallery" class="gallery"></div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
