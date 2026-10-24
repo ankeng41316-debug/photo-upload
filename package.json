@@ -1,0 +1,14 @@
+{
+  "name": "photo-upload",
+  "version": "1.0.0",
+  "description": "簡單的照片上傳網頁應用",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2",
+    "multer": "^2.5.0"
+  }
+}
