@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>店家公告</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 24px 16px;
+      background: #f7f7f7;
+      font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .card {
+      width: 100%;
+      max-width: 720px;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+      padding: 16px;
+      text-align: center;
+    }
+    img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+      margin: 0 auto;
+      border-radius: 8px;
+    }
+    .notice {
+      margin: 20px 0 4px;
+      font-size: clamp(1.4rem, 5vw, 2rem);
+      font-weight: bold;
+      line-height: 1.5;
+    }
+    .red { color: #e60000; }
+    .blue { color: #0033cc; }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <img src="IMG_0031.jpeg" alt="IMG_0031">
+    <p class="notice red">颱風天定位酌收250$ 定金，轉帳完才算訂位。</p>
+    <p class="notice blue">外帶請先私訊需要的飲品/餐點，稍等5-10分鐘後再到店取餐。</p>
+  </main>
+</body>
+</html>
